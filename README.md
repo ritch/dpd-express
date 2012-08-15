@@ -2,6 +2,13 @@
 
 use express as a dpd resource
 
+## install
+
+In your project root, run:
+
+    mkdir node_modules
+    npm install dpd-express
+    
 ## events
 
 There is only 1 event right now: init. Create it in the dashboard or include a folder like this:

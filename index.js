@@ -31,7 +31,7 @@ Express.prototype.handle = function (ctx, next) {
 Express.prototype.load = function (fn) {
   var e = this;
   Resource.prototype.load.call(this, function () {
-    if(e.events.init) {
+    if(e.events && e.events.init) {
       
       var domain = {
           app: e.app
@@ -45,9 +45,9 @@ Express.prototype.load = function (fn) {
       e.app.use(function (req, res) {
         res._finished = true;
       });
+    }  
       
-      fn();
-    }
+    fn();
   });
 }
 
