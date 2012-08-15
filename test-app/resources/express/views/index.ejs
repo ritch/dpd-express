@@ -1,0 +1,10 @@
+<% if(!todos.length) { %>
+  You need to add some todos in the <a href="/dashboard/">dashboard</a>.
+<% } else { %>
+
+  <% for(var i = 0; i < todos.length; i++) { %>
+    <h1><%= todos[i].title %></h1>
+  <% } %>
+  
+<% } %>
+

@@ -1,0 +1,11 @@
+{
+  "name": "dpd-express",
+  "version": "0.0.1",
+  "description": "run express as a dpd resource",
+  "main": "index.js",
+  "author": "Ritchie Martori",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.0.0rc2"
+  }
+}
