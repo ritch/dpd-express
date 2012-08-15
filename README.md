@@ -11,7 +11,7 @@ In your project root, run:
     
 ## events
 
-There is only 1 event right now: init. Create it in the dashboard or include a folder like this:
+There is only 1 event right now: init. Create it in the dashboard or include a folder like this (/my-project is the root of the app, created with `dpd create my-project`):
 
     /my-project
      /resources
